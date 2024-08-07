@@ -15,6 +15,10 @@ threads = {
       "retro": settings["THREAD_RETRO"],
 }
 
+ #ESTE ES UN COMENTARIO
+ 
+
+
 def main() -> None:
 
         if (len(sys.argv) != 3):
