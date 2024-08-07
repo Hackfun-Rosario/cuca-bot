@@ -1,0 +1,12 @@
+{
+    "NOMBRE_BOT": "hfRosario_bot",
+    "MENCION": "@hfRosario_bot",
+    "GEMINI_API_KEY": "",
+    "TELEGRAM_TOKEN": "",
+    "CHAT_ID": -1001530056510,
+    "THREAD_ORGANIZACION": 8415,
+    "THREAD_ELECTRONICA": 21382,
+    "THREAD_PROGRAMACION": 7470,
+    "THREAD_FINANZAS": 12134,
+    "THREAD_RETRO": 32054
+}
