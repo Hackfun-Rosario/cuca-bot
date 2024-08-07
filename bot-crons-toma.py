@@ -11,9 +11,8 @@ threads = {
       "general": "1",
       "organizacion": settings["THREAD_ORGANIZACION"],
       "electronica": settings["THREAD_ELECTRONICA"],
-      "programacion": settings["THREAD_PROGRAMACION"],
-      "finanzas": settings["THREAD_FINANZAS"],
-      "retro": settings["THREAD_RETRO"]
+      "softhard": settings["THREAD_SOFTHARD"],
+      "retro": settings["THREAD_RETRO"],
 }
 
 def main() -> None:
