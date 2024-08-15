@@ -1,4 +1,4 @@
-name: Subir nueva 
+name: Subir version actualizada del bot
 
 on:
   push:
