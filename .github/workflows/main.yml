@@ -22,6 +22,7 @@ jobs:
           username: ${{ secrets.USER_CUCA }}
           password: ${{ secrets.PASS_CUCA }}
           port: 22
+          timeout: 120
           overwrite: true
           source: ".,!.git"
           target: ~/
