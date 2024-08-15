@@ -16,7 +16,7 @@ jobs:
           auth_token: ${{ secrets.ZEROTIER_CENTRAL_TOKEN }}
       - uses: actions/checkout@v4
       - name: Copy file via SCP
-        uses: appleboy/scp-action@v0.1.7
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.IP_CUCA }}
           username: ${{ secrets.USER_CUCA }}
@@ -24,4 +24,4 @@ jobs:
           port: 22
           overwrite: true
           source: ".,!.git"
-          target: ~/bot
+          target: ~/bot/
