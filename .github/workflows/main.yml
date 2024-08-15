@@ -25,4 +25,4 @@ jobs:
           timeout: 120s
           overwrite: true
           source: ".,!.git"
-          target: ~/
+          target: ~
