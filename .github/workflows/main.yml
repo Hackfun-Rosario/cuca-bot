@@ -24,4 +24,4 @@ jobs:
           port: 22
           overwrite: true
           source: ".,!.git"
-          target: ~/bot/
+          target: ~/bot_folder
