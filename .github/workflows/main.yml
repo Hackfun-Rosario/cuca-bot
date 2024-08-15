@@ -14,13 +14,13 @@ jobs:
         with:
           network_id: ${{ secrets.ZEROTIER_NETWORK_ID }}
           auth_token: ${{ secrets.ZEROTIER_CENTRAL_TOKEN }}
-      # - name: Copy file via SCP
-      #   uses: appleboy/scp-action@v0.1.7
-      #   with:
-      #     host: ${{ secrets.IP_CUCA }}
-      #     username: ${{ secrets.USER_CUCA }}
-      #     password: ${{ secrets.PASS_CUCA }}
-      #     port: 22
-      #     overwrite: true
-      #     source: ".,!.git"
-      #     target: /home/ubuntu/exa-web/backend/
+      - name: Copy file via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.IP_CUCA }}
+          username: ${{ secrets.USER_CUCA }}
+          password: ${{ secrets.PASS_CUCA }}
+          port: 22
+          overwrite: true
+          source: ".,!.git"
+          target: /home/piuma/bot
